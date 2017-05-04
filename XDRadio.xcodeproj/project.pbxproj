@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88EE58891EBAF6AF0072176A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EE58881EBAF6AF0072176A /* main.m */; };
+		88EE588C1EBAF6AF0072176A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EE588B1EBAF6AF0072176A /* AppDelegate.m */; };
+		88EE588F1EBAF6AF0072176A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EE588E1EBAF6AF0072176A /* ViewController.m */; };
+		88EE58921EBAF6AF0072176A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EE58901EBAF6AF0072176A /* Main.storyboard */; };
+		88EE58941EBAF6AF0072176A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EE58931EBAF6AF0072176A /* Assets.xcassets */; };
+		88EE58971EBAF6AF0072176A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EE58951EBAF6AF0072176A /* LaunchScreen.storyboard */; };
+		88EE58A21EBAF6B00072176A /* XDRadioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EE58A11EBAF6B00072176A /* XDRadioTests.m */; };
+		88EE58AD1EBAF6B00072176A /* XDRadioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EE58AC1EBAF6B00072176A /* XDRadioUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88EE589E1EBAF6B00072176A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88EE587C1EBAF6AF0072176A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88EE58831EBAF6AF0072176A;
+			remoteInfo = XDRadio;
+		};
+		88EE58A91EBAF6B00072176A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88EE587C1EBAF6AF0072176A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88EE58831EBAF6AF0072176A;
+			remoteInfo = XDRadio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88EE58841EBAF6AF0072176A /* XDRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88EE58881EBAF6AF0072176A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88EE588A1EBAF6AF0072176A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88EE588B1EBAF6AF0072176A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88EE588D1EBAF6AF0072176A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		88EE588E1EBAF6AF0072176A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		88EE58911EBAF6AF0072176A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88EE58931EBAF6AF0072176A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88EE58961EBAF6AF0072176A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88EE58981EBAF6AF0072176A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88EE589D1EBAF6B00072176A /* XDRadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDRadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88EE58A11EBAF6B00072176A /* XDRadioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDRadioTests.m; sourceTree = "<group>"; };
+		88EE58A31EBAF6B00072176A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88EE58A81EBAF6B00072176A /* XDRadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDRadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88EE58AC1EBAF6B00072176A /* XDRadioUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDRadioUITests.m; sourceTree = "<group>"; };
+		88EE58AE1EBAF6B00072176A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88EE58811EBAF6AF0072176A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EE589A1EBAF6B00072176A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EE58A51EBAF6B00072176A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88EE587B1EBAF6AF0072176A = {
+			isa = PBXGroup;
+			children = (
+				88EE58861EBAF6AF0072176A /* XDRadio */,
+				88EE58A01EBAF6B00072176A /* XDRadioTests */,
+				88EE58AB1EBAF6B00072176A /* XDRadioUITests */,
+				88EE58851EBAF6AF0072176A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88EE58851EBAF6AF0072176A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88EE58841EBAF6AF0072176A /* XDRadio.app */,
+				88EE589D1EBAF6B00072176A /* XDRadioTests.xctest */,
+				88EE58A81EBAF6B00072176A /* XDRadioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88EE58861EBAF6AF0072176A /* XDRadio */ = {
+			isa = PBXGroup;
+			children = (
+				88EE588A1EBAF6AF0072176A /* AppDelegate.h */,
+				88EE588B1EBAF6AF0072176A /* AppDelegate.m */,
+				88EE588D1EBAF6AF0072176A /* ViewController.h */,
+				88EE588E1EBAF6AF0072176A /* ViewController.m */,
+				88EE58901EBAF6AF0072176A /* Main.storyboard */,
+				88EE58931EBAF6AF0072176A /* Assets.xcassets */,
+				88EE58951EBAF6AF0072176A /* LaunchScreen.storyboard */,
+				88EE58981EBAF6AF0072176A /* Info.plist */,
+				88EE58871EBAF6AF0072176A /* Supporting Files */,
+			);
+			path = XDRadio;
+			sourceTree = "<group>";
+		};
+		88EE58871EBAF6AF0072176A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				88EE58881EBAF6AF0072176A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88EE58A01EBAF6B00072176A /* XDRadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				88EE58A11EBAF6B00072176A /* XDRadioTests.m */,
+				88EE58A31EBAF6B00072176A /* Info.plist */,
+			);
+			path = XDRadioTests;
+			sourceTree = "<group>";
+		};
+		88EE58AB1EBAF6B00072176A /* XDRadioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88EE58AC1EBAF6B00072176A /* XDRadioUITests.m */,
+				88EE58AE1EBAF6B00072176A /* Info.plist */,
+			);
+			path = XDRadioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88EE58831EBAF6AF0072176A /* XDRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88EE58B11EBAF6B00072176A /* Build configuration list for PBXNativeTarget "XDRadio" */;
+			buildPhases = (
+				88EE58801EBAF6AF0072176A /* Sources */,
+				88EE58811EBAF6AF0072176A /* Frameworks */,
+				88EE58821EBAF6AF0072176A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XDRadio;
+			productName = XDRadio;
+			productReference = 88EE58841EBAF6AF0072176A /* XDRadio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88EE589C1EBAF6B00072176A /* XDRadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88EE58B41EBAF6B00072176A /* Build configuration list for PBXNativeTarget "XDRadioTests" */;
+			buildPhases = (
+				88EE58991EBAF6B00072176A /* Sources */,
+				88EE589A1EBAF6B00072176A /* Frameworks */,
+				88EE589B1EBAF6B00072176A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88EE589F1EBAF6B00072176A /* PBXTargetDependency */,
+			);
+			name = XDRadioTests;
+			productName = XDRadioTests;
+			productReference = 88EE589D1EBAF6B00072176A /* XDRadioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88EE58A71EBAF6B00072176A /* XDRadioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88EE58B71EBAF6B00072176A /* Build configuration list for PBXNativeTarget "XDRadioUITests" */;
+			buildPhases = (
+				88EE58A41EBAF6B00072176A /* Sources */,
+				88EE58A51EBAF6B00072176A /* Frameworks */,
+				88EE58A61EBAF6B00072176A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88EE58AA1EBAF6B00072176A /* PBXTargetDependency */,
+			);
+			name = XDRadioUITests;
+			productName = XDRadioUITests;
+			productReference = 88EE58A81EBAF6B00072176A /* XDRadioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88EE587C1EBAF6AF0072176A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = iMac;
+				TargetAttributes = {
+					88EE58831EBAF6AF0072176A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6L62ECT46A;
+						ProvisioningStyle = Automatic;
+					};
+					88EE589C1EBAF6B00072176A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6L62ECT46A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 88EE58831EBAF6AF0072176A;
+					};
+					88EE58A71EBAF6B00072176A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6L62ECT46A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 88EE58831EBAF6AF0072176A;
+					};
+				};
+			};
+			buildConfigurationList = 88EE587F1EBAF6AF0072176A /* Build configuration list for PBXProject "XDRadio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88EE587B1EBAF6AF0072176A;
+			productRefGroup = 88EE58851EBAF6AF0072176A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88EE58831EBAF6AF0072176A /* XDRadio */,
+				88EE589C1EBAF6B00072176A /* XDRadioTests */,
+				88EE58A71EBAF6B00072176A /* XDRadioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88EE58821EBAF6AF0072176A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EE58971EBAF6AF0072176A /* LaunchScreen.storyboard in Resources */,
+				88EE58941EBAF6AF0072176A /* Assets.xcassets in Resources */,
+				88EE58921EBAF6AF0072176A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EE589B1EBAF6B00072176A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EE58A61EBAF6B00072176A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88EE58801EBAF6AF0072176A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EE588F1EBAF6AF0072176A /* ViewController.m in Sources */,
+				88EE588C1EBAF6AF0072176A /* AppDelegate.m in Sources */,
+				88EE58891EBAF6AF0072176A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EE58991EBAF6B00072176A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EE58A21EBAF6B00072176A /* XDRadioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88EE58A41EBAF6B00072176A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EE58AD1EBAF6B00072176A /* XDRadioUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88EE589F1EBAF6B00072176A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88EE58831EBAF6AF0072176A /* XDRadio */;
+			targetProxy = 88EE589E1EBAF6B00072176A /* PBXContainerItemProxy */;
+		};
+		88EE58AA1EBAF6B00072176A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88EE58831EBAF6AF0072176A /* XDRadio */;
+			targetProxy = 88EE58A91EBAF6B00072176A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88EE58901EBAF6AF0072176A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88EE58911EBAF6AF0072176A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88EE58951EBAF6AF0072176A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88EE58961EBAF6AF0072176A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88EE58AF1EBAF6B00072176A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88EE58B01EBAF6B00072176A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88EE58B21EBAF6B00072176A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6L62ECT46A;
+				INFOPLIST_FILE = XDRadio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdradio.XDRadio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88EE58B31EBAF6B00072176A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6L62ECT46A;
+				INFOPLIST_FILE = XDRadio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdradio.XDRadio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		88EE58B51EBAF6B00072176A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6L62ECT46A;
+				INFOPLIST_FILE = XDRadioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdradio.XDRadioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XDRadio.app/XDRadio";
+			};
+			name = Debug;
+		};
+		88EE58B61EBAF6B00072176A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6L62ECT46A;
+				INFOPLIST_FILE = XDRadioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdradio.XDRadioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XDRadio.app/XDRadio";
+			};
+			name = Release;
+		};
+		88EE58B81EBAF6B00072176A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6L62ECT46A;
+				INFOPLIST_FILE = XDRadioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdradio.XDRadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XDRadio;
+			};
+			name = Debug;
+		};
+		88EE58B91EBAF6B00072176A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6L62ECT46A;
+				INFOPLIST_FILE = XDRadioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdradio.XDRadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XDRadio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88EE587F1EBAF6AF0072176A /* Build configuration list for PBXProject "XDRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88EE58AF1EBAF6B00072176A /* Debug */,
+				88EE58B01EBAF6B00072176A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88EE58B11EBAF6B00072176A /* Build configuration list for PBXNativeTarget "XDRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88EE58B21EBAF6B00072176A /* Debug */,
+				88EE58B31EBAF6B00072176A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88EE58B41EBAF6B00072176A /* Build configuration list for PBXNativeTarget "XDRadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88EE58B51EBAF6B00072176A /* Debug */,
+				88EE58B61EBAF6B00072176A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		88EE58B71EBAF6B00072176A /* Build configuration list for PBXNativeTarget "XDRadioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88EE58B81EBAF6B00072176A /* Debug */,
+				88EE58B91EBAF6B00072176A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88EE587C1EBAF6AF0072176A /* Project object */;
+}
