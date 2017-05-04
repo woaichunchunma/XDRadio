@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		88EE58891EBAF6AF0072176A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EE58881EBAF6AF0072176A /* main.m */; };
 		88EE588C1EBAF6AF0072176A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EE588B1EBAF6AF0072176A /* AppDelegate.m */; };
-		88EE588F1EBAF6AF0072176A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EE588E1EBAF6AF0072176A /* ViewController.m */; };
-		88EE58921EBAF6AF0072176A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EE58901EBAF6AF0072176A /* Main.storyboard */; };
 		88EE58941EBAF6AF0072176A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EE58931EBAF6AF0072176A /* Assets.xcassets */; };
 		88EE58971EBAF6AF0072176A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EE58951EBAF6AF0072176A /* LaunchScreen.storyboard */; };
 		88EE58A21EBAF6B00072176A /* XDRadioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EE58A11EBAF6B00072176A /* XDRadioTests.m */; };
 		88EE58AD1EBAF6B00072176A /* XDRadioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EE58AC1EBAF6B00072176A /* XDRadioUITests.m */; };
+		88EE58BF1EBAF6FD0072176A /* XDRadioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EE58BC1EBAF6FD0072176A /* XDRadioView.m */; };
+		88EE58C01EBAF6FD0072176A /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EE58BE1EBAF6FD0072176A /* MyButton.m */; };
+		88EE58C31EBAF70D0072176A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EE58C21EBAF70D0072176A /* UIView+Extension.m */; };
+		88EE58C71EBAFF120072176A /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88EE58C51EBAFF120072176A /* DemoViewController.m */; };
+		88EE58C81EBAFF120072176A /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88EE58C61EBAFF120072176A /* DemoViewController.xib */; };
+		88EE58CB1EBB019D0072176A /* no.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EE58C91EBB019D0072176A /* no.png */; };
+		88EE58CC1EBB019D0072176A /* yes.png in Resources */ = {isa = PBXBuildFile; fileRef = 88EE58CA1EBB019D0072176A /* yes.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +44,6 @@
 		88EE58881EBAF6AF0072176A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88EE588A1EBAF6AF0072176A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		88EE588B1EBAF6AF0072176A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		88EE588D1EBAF6AF0072176A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		88EE588E1EBAF6AF0072176A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		88EE58911EBAF6AF0072176A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88EE58931EBAF6AF0072176A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88EE58961EBAF6AF0072176A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88EE58981EBAF6AF0072176A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +53,17 @@
 		88EE58A81EBAF6B00072176A /* XDRadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDRadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EE58AC1EBAF6B00072176A /* XDRadioUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDRadioUITests.m; sourceTree = "<group>"; };
 		88EE58AE1EBAF6B00072176A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88EE58BB1EBAF6FD0072176A /* XDRadioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDRadioView.h; sourceTree = "<group>"; };
+		88EE58BC1EBAF6FD0072176A /* XDRadioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDRadioView.m; sourceTree = "<group>"; };
+		88EE58BD1EBAF6FD0072176A /* MyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
+		88EE58BE1EBAF6FD0072176A /* MyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
+		88EE58C11EBAF70D0072176A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		88EE58C21EBAF70D0072176A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		88EE58C41EBAFF120072176A /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		88EE58C51EBAFF120072176A /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		88EE58C61EBAFF120072176A /* DemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
+		88EE58C91EBB019D0072176A /* no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no.png; sourceTree = "<group>"; };
+		88EE58CA1EBB019D0072176A /* yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yes.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +114,14 @@
 		88EE58861EBAF6AF0072176A /* XDRadio */ = {
 			isa = PBXGroup;
 			children = (
+				88EE58C91EBB019D0072176A /* no.png */,
+				88EE58CA1EBB019D0072176A /* yes.png */,
+				88EE58BA1EBAF6D80072176A /* Radio */,
 				88EE588A1EBAF6AF0072176A /* AppDelegate.h */,
 				88EE588B1EBAF6AF0072176A /* AppDelegate.m */,
-				88EE588D1EBAF6AF0072176A /* ViewController.h */,
-				88EE588E1EBAF6AF0072176A /* ViewController.m */,
-				88EE58901EBAF6AF0072176A /* Main.storyboard */,
+				88EE58C41EBAFF120072176A /* DemoViewController.h */,
+				88EE58C51EBAFF120072176A /* DemoViewController.m */,
+				88EE58C61EBAFF120072176A /* DemoViewController.xib */,
 				88EE58931EBAF6AF0072176A /* Assets.xcassets */,
 				88EE58951EBAF6AF0072176A /* LaunchScreen.storyboard */,
 				88EE58981EBAF6AF0072176A /* Info.plist */,
@@ -138,6 +154,19 @@
 				88EE58AE1EBAF6B00072176A /* Info.plist */,
 			);
 			path = XDRadioUITests;
+			sourceTree = "<group>";
+		};
+		88EE58BA1EBAF6D80072176A /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				88EE58BB1EBAF6FD0072176A /* XDRadioView.h */,
+				88EE58BC1EBAF6FD0072176A /* XDRadioView.m */,
+				88EE58BD1EBAF6FD0072176A /* MyButton.h */,
+				88EE58BE1EBAF6FD0072176A /* MyButton.m */,
+				88EE58C11EBAF70D0072176A /* UIView+Extension.h */,
+				88EE58C21EBAF70D0072176A /* UIView+Extension.m */,
+			);
+			path = Radio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +278,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88EE58CC1EBB019D0072176A /* yes.png in Resources */,
 				88EE58971EBAF6AF0072176A /* LaunchScreen.storyboard in Resources */,
 				88EE58941EBAF6AF0072176A /* Assets.xcassets in Resources */,
-				88EE58921EBAF6AF0072176A /* Main.storyboard in Resources */,
+				88EE58CB1EBB019D0072176A /* no.png in Resources */,
+				88EE58C81EBAFF120072176A /* DemoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +307,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88EE588F1EBAF6AF0072176A /* ViewController.m in Sources */,
+				88EE58C31EBAF70D0072176A /* UIView+Extension.m in Sources */,
 				88EE588C1EBAF6AF0072176A /* AppDelegate.m in Sources */,
+				88EE58BF1EBAF6FD0072176A /* XDRadioView.m in Sources */,
 				88EE58891EBAF6AF0072176A /* main.m in Sources */,
+				88EE58C71EBAFF120072176A /* DemoViewController.m in Sources */,
+				88EE58C01EBAF6FD0072176A /* MyButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +348,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		88EE58901EBAF6AF0072176A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				88EE58911EBAF6AF0072176A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		88EE58951EBAF6AF0072176A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -427,6 +453,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6L62ECT46A;
 				INFOPLIST_FILE = XDRadio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xdradio.XDRadio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +466,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6L62ECT46A;
 				INFOPLIST_FILE = XDRadio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xdradio.XDRadio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
