@@ -13,4 +13,4 @@ demo
     }];
     [self.radioView addSubview:rview];
 # demonstration
-![image](https://github.com/woaichunchunma/Lottery/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE.gif)
+![image](https://github.com/woaichunchunma/XDRadio/blob/master/效果图.gif)
